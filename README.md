@@ -25,13 +25,13 @@ CUDA (PyTorch + sentence-transformers) is supported automatically if available.
    python -m venv my_venv
 ```
 
-Activate it:
+3. Activate it:
 
 ```bash
 source my_venv/bin/activate
 ```
 
-Install dependencies:
+4. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -39,7 +39,7 @@ pip install -r requirements.txt
 
 I tested this with Python 3.12 and CUDA-enabled PyTorch 2.4.0.
 
-You will also need a HuggingFace token. After obtaining one, run the following on Linux:
+5. You will also need a HuggingFace token. After obtaining one, run the following on Linux:
 
 ```bash
 echo 'export HF_TOKEN="YOUR_HF_TOKEN_HERE"' >> ~/.bashrc
