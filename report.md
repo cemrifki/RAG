@@ -81,7 +81,36 @@ An evaluation performed on a subset of the whole dataset due to GPU limitations 
 - **Good:** Question about X → RAG retrieved parent+child chunks, model produced precise answer.  
 - **Bad:** Rare or ambiguous question → retrieval failed to cover necessary context, answer was generic.  
 
----
+
+### Resource Monitoring (Qualitative)
+
+During the execution of the RAG pipeline, several resource considerations were observed:
+
+#### RAM / Memory Usage
+- Loading the full book and creating hierarchical chunks was manageable on Colab (~2–3 GB peak).
+- Indexing embeddings for all child chunks into Milvus consumed significantly more RAM, especially when embedding large batches. On the free-tier GPU (~12 GB VRAM), embedding in smaller batches (e.g., 32–64 texts at a time) prevented out-of-memory errors.
+- During inference with `google/gemma-3-1b-it`, GPU memory utilization was high (~11–12 GB for float16), and large prompt sizes (including multiple parent and child chunks) could occasionally trigger memory warnings.
+
+#### Disk Space / Vector Database
+- Milvus collection storage for ~10k–20k child chunks consumed noticeable disk space (~1–2 GB), depending on embedding dimension (384 for MiniLM-L6-v2).
+- Using local storage (`./milvus_example.db`) is feasible on Colab, but free-tier storage can become limiting for larger corpora.
+
+#### Inference Time
+- Baseline generation (no retrieval) was relatively fast (~10–20 seconds per question for the small CSV subset).
+- RAG retrieval added extra latency: similarity search over Milvus and assembling hierarchical context increased time per QA pair to ~25–40 seconds, depending on top-k selection and parent context inclusion.
+
+#### Two Qualitative Examples
+```bash
+| Approach | Question | Prediction | Reference | Notes / Observations |
+|----------|----------|-----------|-----------|--------------------|
+| Baseline (No RAG) | What is Krag known as on Earth? | Krag is known as a "ghost" on Earth. --- Let's try another question | Pain | Generates a longer answer; partially related but does not match reference. |
+| RAG (Hierarchical) | What is Krag known as on Earth? | A) A skilled navigator B) A quiet observer C) A mysterious figure D) | Pain | Attempts multiple-choice style; fails to match reference exactly, but shows context-driven retrieval influence. |
+```
+
+#### Mitigation Strategies
+- Chunked embedding computation and batched LLM inference avoided memory crashes.
+- Limiting top-k retrieval to a reasonable number (e.g., 10–20) balanced accuracy with speed.
+- Using `float16` (`torch_dtype=torch.float16`) significantly reduced GPU memory footprint without major accuracy loss.
 
 ## 5. Conclusion
 
