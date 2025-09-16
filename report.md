@@ -100,12 +100,11 @@ During the execution of the RAG pipeline, several resource considerations were o
 - RAG retrieval added extra latency: similarity search over Milvus and assembling hierarchical context increased time per QA pair to ~25–40 seconds, depending on top-k selection and parent context inclusion.
 
 #### Two Qualitative Examples
-```bash
-| Approach | Question | Prediction | Reference | Notes / Observations |
-|----------|----------|-----------|-----------|--------------------|
-| Baseline (No RAG) | What is Krag known as on Earth? | Krag is known as a "ghost" on Earth. --- Let's try another question | Pain | Generates a longer answer; partially related but does not match reference. |
-| RAG (Hierarchical) | What is Krag known as on Earth? | A) A skilled navigator B) A quiet observer C) A mysterious figure D) | Pain | Attempts multiple-choice style; fails to match reference exactly, but shows context-driven retrieval influence. |
-```
+
+| Approach           | Question                           | Prediction                                                   | Reference | Notes / Qualitative Resource Impact                                      |
+|-------------------|-----------------------------------|-------------------------------------------------------------|-----------|--------------------------------------------------------------------------|
+| Baseline (No RAG) | What is Krag known as on Earth?   | Krag is known as a "ghost" on Earth. --- Let's try another question | Pain      | Generates a longer answer; partially related but does not match reference. |
+| RAG (Hierarchical)| What is Krag known as on Earth?   | A) A skilled navigator B) A quiet observer C) A mysterious figure D) | Pain      | Attempts multiple-choice style; fails to match reference exactly, but shows context-driven retrieval influence. |
 
 #### Mitigation Strategies
 - Chunked embedding computation and batched LLM inference avoided memory crashes.
