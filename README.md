@@ -47,6 +47,8 @@ source ~/.bashrc
 ```
 ## Project Structure
 
+``` bash
+
 project/
 ├── main.py                 # Entrypoint
 ├── requirements.txt
@@ -56,6 +58,7 @@ project/
     ├── rag_pipeline.py     # Baseline & RAG pipelines
     ├── evaluation.py       # BLEU & ROUGE metrics
     └── utils.py            # Helpers: parsing, context assembly, prompt template
+``` 
 
 ## Usage
 Run the main pipeline end-to-end (preprocessing → indexing → QA → evaluation):
