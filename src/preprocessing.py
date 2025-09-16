@@ -63,3 +63,17 @@ def preprocess(book_txt, out_dir, child_size, parent_size, overlap):
         for c in children:
             f.write(json.dumps(c, ensure_ascii=False) + '\n')
     print(f"Wrote {len(parents)} parents and {len(children)} children to {out_dir}")
+
+
+if __name__ == "__main__":
+    """
+    Run preprocessing standalone:
+    python -m src.preprocessing
+    """
+    preprocess(
+        book_txt="data/A_voyage_to_Arcturus.txt",
+        out_dir="data/chunks",
+        child_size=250,
+        parent_size=900,
+        overlap=50
+    )
