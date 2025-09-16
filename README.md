@@ -1,11 +1,6 @@
 # RAG
 
-Efficient RAG pipeline with hierarchical chunking for improved context retrieval and LLM generation.
-
-# RAG-Hierarchical-Chunks
-
-RAG pipeline with hierarchical chunking, Milvus vector DB, and CUDA-accelerated embedding & inference.  
-Includes preprocessing of Project Gutenberg text, embedding/indexing with `sentence-transformers`, retrieval-augmented generation using Gemma, and evaluation with BLEU-4 & ROUGE-L metrics.
+RAG pipeline with hierarchical chunking, Milvus vector DB, and CUDA-accelerated embedding & inference. Includes preprocessing of Project Gutenberg text, embedding/indexing with `sentence-transformers`, retrieval-augmented generation using Gemma, and evaluation with BLEU-4 & ROUGE-L metrics.
 
 
 ## Overview
