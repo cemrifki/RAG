@@ -45,6 +45,9 @@ You will also need a HuggingFace token. After obtaining one, run the following o
 echo 'export HF_TOKEN="YOUR_HF_TOKEN_HERE"' >> ~/.bashrc
 source ~/.bashrc
 ```
+
+If local GPU resources are limited, the RAG pipeline can also be run seamlessly on Google Colab, which provides free GPU access for experimentation.
+
 ## Project Structure
 
 ``` bash
