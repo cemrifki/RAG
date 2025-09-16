@@ -1,0 +1,89 @@
+question,answers
+"{'text': 'Who does Maskull accept an invitation from?', 'tokens': array(['Who', 'does', 'Maskull', 'accept', 'an', 'invitation', 'from',
+       '?'], dtype=object)}","[{'text': 'Krag', 'tokens': array(['Krag'], dtype=object)}
+ {'text': 'Krag.', 'tokens': array(['Krag', '.'], dtype=object)}]"
+"{'text': 'Who is Krag an acquaintance of?', 'tokens': array(['Who', 'is', 'Krag', 'an', 'acquaintance', 'of', '?'], dtype=object)}","[{'text': 'Nightspore', 'tokens': array(['Nightspore'], dtype=object)}
+ {'text': 'Nightspore.', 'tokens': array(['Nightspore', '.'], dtype=object)}]"
+"{'text': 'Where is Maskull traveling to?', 'tokens': array(['Where', 'is', 'Maskull', 'traveling', 'to', '?'], dtype=object)}","[{'text': 'Tormance', 'tokens': array(['Tormance'], dtype=object)}
+ {'text': 'Tormance.', 'tokens': array(['Tormance', '.'], dtype=object)}]"
+"{'text': 'When Maskull wakes up in Tormance, how many of his friends are with him?', 'tokens': array(['When', 'Maskull', 'wakes', 'up', 'in', 'Tormance', ',', 'how',
+       'many', 'of', 'his', 'friends', 'are', 'with', 'him', '?'],
+      dtype=object)}","[{'text': 'None', 'tokens': array(['None'], dtype=object)}
+ {'text': 'None.', 'tokens': array(['None', '.'], dtype=object)}]"
+"{'text': 'Who does Maskull realize he really is?', 'tokens': array(['Who', 'does', 'Maskull', 'realize', 'he', 'really', 'is', '?'],
+      dtype=object)}","[{'text': 'Nightspore', 'tokens': array(['Nightspore'], dtype=object)}
+ {'text': 'Nightspore.', 'tokens': array(['Nightspore', '.'], dtype=object)}]"
+"{'text': 'Who does Krag claim that he is none as on Earth?', 'tokens': array(['Who', 'does', 'Krag', 'claim', 'that', 'he', 'is', 'none', 'as',
+       'on', 'Earth', '?'], dtype=object)}","[{'text': 'Pain', 'tokens': array(['Pain'], dtype=object)}
+ {'text': 'Pain', 'tokens': array(['Pain'], dtype=object)}]"
+"{'text': 'What kind of ship does Maskull travel in?', 'tokens': array(['What', 'kind', 'of', 'ship', 'does', 'Maskull', 'travel', 'in',
+       '?'], dtype=object)}","[{'text': 'A crystal ship', 'tokens': array(['A', 'crystal', 'ship'], dtype=object)}
+ {'text': 'crystal', 'tokens': array(['crystal'], dtype=object)}]"
+"{'text': 'Where is the abandoned observatory located?', 'tokens': array(['Where', 'is', 'the', 'abandoned', 'observatory', 'located', '?'],
+      dtype=object)}","[{'text': 'In Scotland', 'tokens': array(['In', 'Scotland'], dtype=object)}
+ {'text': 'Scotland.', 'tokens': array(['Scotland', '.'], dtype=object)}]"
+"{'text': 'Whose death does he learn is coming soon?', 'tokens': array(['Whose', 'death', 'does', 'he', 'learn', 'is', 'coming', 'soon',
+       '?'], dtype=object)}","[{'text': 'his own', 'tokens': array(['his', 'own'], dtype=object)}
+ {'text': ""Maskull's own death."", 'tokens': array(['Maskull', 's', 'own', 'death', '.'], dtype=object)}]"
+"{'text': 'Who gives the last revelation?', 'tokens': array(['Who', 'gives', 'the', 'last', 'revelation', '?'], dtype=object)}","[{'text': 'Krag', 'tokens': array(['Krag'], dtype=object)}
+ {'text': 'Krag.', 'tokens': array(['Krag', '.'], dtype=object)}]"
+"{'text': 'Why does Maskull accept an invitation Krag to go to Tormance?', 'tokens': array(['Why', 'does', 'Maskull', 'accept', 'an', 'invitation', 'Krag',
+       'to', 'go', 'to', 'Tormance', '?'], dtype=object)}","[{'text': 'He longs for adventure. ', 'tokens': array(['He', 'longs', 'for', 'adventure', '.'], dtype=object)}
+ {'text': 'He wanted to go on adventures', 'tokens': array(['He', 'wanted', 'to', 'go', 'on', 'adventures'], dtype=object)}]"
+"{'text': 'Who is Krag to Maskull?', 'tokens': array(['Who', 'is', 'Krag', 'to', 'Maskull', '?'], dtype=object)}","[{'text': 'A acquaintance of his friend Nightspore.', 'tokens': array(['A', 'acquaintance', 'of', 'his', 'friend', 'Nightspore', '.'],
+       dtype=object)}
+ {'text': 'An acquaintance ', 'tokens': array(['An', 'acquaintance'], dtype=object)}]"
+"{'text': 'What sort of ship did Maskull, Krag, and Nightspore set of in?', 'tokens': array(['What', 'sort', 'of', 'ship', 'did', 'Maskull', ',', 'Krag', ',',
+       'and', 'Nightspore', 'set', 'of', 'in', '?'], dtype=object)}","[{'text': 'A crystal ship', 'tokens': array(['A', 'crystal', 'ship'], dtype=object)}
+ {'text': 'A crystal ship.', 'tokens': array(['A', 'crystal', 'ship', '.'], dtype=object)}]"
+"{'text': 'Where did not crystal ship come from?', 'tokens': array(['Where', 'did', 'not', 'crystal', 'ship', 'come', 'from', '?'],
+      dtype=object)}","[{'text': 'From an abandoned observatory in Scotland.', 'tokens': array(['From', 'an', 'abandoned', 'observatory', 'in', 'Scotland', '.'],
+       dtype=object)}
+ {'text': ""scotland's abandoned observatory"", 'tokens': array(['scotland', 's', 'abandoned', 'observatory'], dtype=object)}]"
+"{'text': 'Who is missing from the ship when Maskull wakes?', 'tokens': array(['Who', 'is', 'missing', 'from', 'the', 'ship', 'when', 'Maskull',
+       'wakes', '?'], dtype=object)}","[{'text': 'Krag and Nightspore.', 'tokens': array(['Krag', 'and', 'Nightspore', '.'], dtype=object)}
+ {'text': 'Krag and Nightspore', 'tokens': array(['Krag', 'and', 'Nightspore'], dtype=object)}]"
+"{'text': 'How many people does Maskull usually see in the lands he travels?', 'tokens': array(['How', 'many', 'people', 'does', 'Maskull', 'usually', 'see', 'in',
+       'the', 'lands', 'he', 'travels', '?'], dtype=object)}","[{'text': 'Not more than 1 or 2.', 'tokens': array(['Not', 'more', 'than', '1', 'or', '2', '.'], dtype=object)}
+ {'text': 'One or two.', 'tokens': array(['One', 'or', 'two', '.'], dtype=object)}]"
+"{'text': 'What happens to the people Maskull meets in his travels to various lands?', 'tokens': array(['What', 'happens', 'to', 'the', 'people', 'Maskull', 'meets', 'in',
+       'his', 'travels', 'to', 'various', 'lands', '?'], dtype=object)}","[{'text': 'They usually die by his hand or anothers.', 'tokens': array(['They', 'usually', 'die', 'by', 'his', 'hand', 'or', 'anothers',
+        '.'], dtype=object)}
+ {'text': 'They die', 'tokens': array(['They', 'die'], dtype=object)}]"
+"{'text': 'Whom is known on Earth as Pain?', 'tokens': array(['Whom', 'is', 'known', 'on', 'Earth', 'as', 'Pain', '?'],
+      dtype=object)}","[{'text': 'Krag.', 'tokens': array(['Krag', '.'], dtype=object)}
+ {'text': 'Krag', 'tokens': array(['Krag'], dtype=object)}]"
+"{'text': 'Maskull learns that he is also what character? ', 'tokens': array(['Maskull', 'learns', 'that', 'he', 'is', 'also', 'what',
+       'character', '?'], dtype=object)}","[{'text': 'Nightspore.', 'tokens': array(['Nightspore', '.'], dtype=object)}
+ {'text': 'nightspore', 'tokens': array(['nightspore'], dtype=object)}]"
+"{'text': 'What country does Maskull, Krag, and Nightspore set off from?', 'tokens': array(['What', 'country', 'does', 'Maskull', ',', 'Krag', ',', 'and',
+       'Nightspore', 'set', 'off', 'from', '?'], dtype=object)}","[{'text': 'Scotland', 'tokens': array(['Scotland'], dtype=object)}
+ {'text': 'Scotland', 'tokens': array(['Scotland'], dtype=object)}]"
+"{'text': 'On average, how many people does Maskull normally meet when traveling?', 'tokens': array(['On', 'average', ',', 'how', 'many', 'people', 'does', 'Maskull',
+       'normally', 'meet', 'when', 'traveling', '?'], dtype=object)}","[{'text': 'One or two', 'tokens': array(['One', 'or', 'two'], dtype=object)}
+ {'text': 'One or two.', 'tokens': array(['One', 'or', 'two', '.'], dtype=object)}]"
+"{'text': 'Where was Maskull planning on traveling to in the beginning of the story?', 'tokens': array(['Where', 'was', 'Maskull', 'planning', 'on', 'traveling', 'to',
+       'in', 'the', 'beginning', 'of', 'the', 'story', '?'], dtype=object)}","[{'text': 'Tormance', 'tokens': array(['Tormance'], dtype=object)}
+ {'text': 'Tormance', 'tokens': array(['Tormance'], dtype=object)}]"
+"{'text': 'What normally happens when Maskull meets new people in the lands he travels to?', 'tokens': array(['What', 'normally', 'happens', 'when', 'Maskull', 'meets', 'new',
+       'people', 'in', 'the', 'lands', 'he', 'travels', 'to', '?'],
+      dtype=object)}","[{'text': 'Normally they die', 'tokens': array(['Normally', 'they', 'die'], dtype=object)}
+ {'text': 'Those people usually end up dead.', 'tokens': array(['Those', 'people', 'usually', 'end', 'up', 'dead', '.'],
+       dtype=object)}                                                                                                   ]"
+"{'text': 'Who has a revelation about the origin of the universe?', 'tokens': array(['Who', 'has', 'a', 'revelation', 'about', 'the', 'origin', 'of',
+       'the', 'universe', '?'], dtype=object)}","[{'text': 'Krag', 'tokens': array(['Krag'], dtype=object)}
+ {'text': 'Nightspore', 'tokens': array(['Nightspore'], dtype=object)}]"
+"{'text': 'Who is Nightspore?', 'tokens': array(['Who', 'is', 'Nightspore', '?'], dtype=object)}","[{'text': 'Maskull', 'tokens': array(['Maskull'], dtype=object)}
+ {'text': 'maskull', 'tokens': array(['maskull'], dtype=object)}]"
+"{'text': 'What is Krag known as on Earth?', 'tokens': array(['What', 'is', 'Krag', 'known', 'as', 'on', 'Earth', '?'],
+      dtype=object)}","[{'text': 'Pain', 'tokens': array(['Pain'], dtype=object)}
+ {'text': 'Pain.', 'tokens': array(['Pain', '.'], dtype=object)}]"
+"{'text': 'Why does Maskull accept to go to Tormance with Krag and Nightspore?', 'tokens': array(['Why', 'does', 'Maskull', 'accept', 'to', 'go', 'to', 'Tormance',
+       'with', 'Krag', 'and', 'Nightspore', '?'], dtype=object)}","[{'text': 'He was longing for adventures.', 'tokens': array(['He', 'was', 'longing', 'for', 'adventures', '.'], dtype=object)}
+ {'text': 'He longs for adventure.', 'tokens': array(['He', 'longs', 'for', 'adventure', '.'], dtype=object)}]"
+"{'text': 'Where does Maskull wake up alone at?', 'tokens': array(['Where', 'does', 'Maskull', 'wake', 'up', 'alone', 'at', '?'],
+      dtype=object)}","[{'text': 'Tormance', 'tokens': array(['Tormance'], dtype=object)}
+ {'text': 'Tormance.', 'tokens': array(['Tormance', '.'], dtype=object)}]"
+"{'text': 'What type of ship did the three set off in?', 'tokens': array(['What', 'type', 'of', 'ship', 'did', 'the', 'three', 'set', 'off',
+       'in', '?'], dtype=object)}","[{'text': 'A crystal ship', 'tokens': array(['A', 'crystal', 'ship'], dtype=object)}
+ {'text': 'crystal', 'tokens': array(['crystal'], dtype=object)}]"
