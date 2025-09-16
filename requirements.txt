@@ -1,0 +1,21 @@
+torch==2.4.0+cu121 --extra-index-url https://download.pytorch.org/whl/cu121
+transformers
+datasets
+sentence-transformers
+qdrant-client
+tqdm
+scikit-learn
+sacremoses
+sacrebleu
+rouge-score
+requests
+python-multipart
+click
+accelerate
+pandas
+langchain-community
+langchain-milvus
+# Hugging Face Hub for model and dataset management
+huggingface-hub>=0.17.4
+# Tokenization library
+sentencepiece
