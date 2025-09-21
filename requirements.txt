@@ -15,6 +15,7 @@ accelerate
 pandas
 langchain-community
 langchain-milvus
+langchain-huggingface
 # Hugging Face Hub for model and dataset management
 huggingface-hub>=0.17.4
 # Tokenization library
