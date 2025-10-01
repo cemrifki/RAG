@@ -1,4 +1,7 @@
-torch==2.4.0+cu121 --extra-index-url https://download.pytorch.org/whl/cu121
+--index-url https://pypi.org/simple
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+torch==2.4.0+cu121
 transformers
 datasets
 sentence-transformers
@@ -16,7 +19,6 @@ pandas
 langchain-community
 langchain-milvus
 langchain-huggingface
-# Hugging Face Hub for model and dataset management
 huggingface-hub>=0.17.4
-# Tokenization library
 sentencepiece
+pymilvus[milvus_lite]
